@@ -11,14 +11,15 @@ const TextFieldForm = ({ onSearch }) => {
 
   const handleSearch = (event) => {
     event.preventDefault(); // Prevent default form submission
-    onSearch(inputValue.trim()); // Trim the inputValue to remove whitespace
+    onSearch(inputValue.trim()); // Trim the input value to remove whitespace
+    setInputValue(""); // Reset input field after search
   };
 
   return (
     <Paper
       component="form"
-      onSubmit={handleSearch} // Add the onSubmit event handler here
-      sx={{ p: "2px 30px",display: "flex",alignItems: "center",width: 500,backgroundColor: "#CCD3CA", }}
+      onSubmit={handleSearch} 
+      sx={{ p: "2px 30px",display: "flex",alignItems: "center",width: 500,backgroundColor: "#67C6E3", }}
     >
       <InputBase
         sx={{ ml: 1, flex: 1 }} value={inputValue}onChange={(e) => setInputValue(e.target.value)} placeholder="Search Actors" inputProps={{ "aria-label": "search movies" }}

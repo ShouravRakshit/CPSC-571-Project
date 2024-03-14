@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import TextFieldForm from './Components/TextFieldForm';
 import './App.css'
+import Header from './Components/Header';
 function App() {
  
   const [moviesData, setMoviesData] = useState([]);
@@ -19,14 +20,14 @@ function App() {
     }
   };
 
-  
   // items have movie_title and genres as attributes.
   return (
     <>
+   
       <TextFieldForm onSearch={handleSearch}/>
       <div>
         {moviesData.map(item =>
-          <h2 key={item.id}> {item.movie_title}  - {item.genres}</h2>)}
+          <h2 style={{color: "#070F2B"}} key={item.id}> {item.movie_title}  - {item.genres}</h2>)}
       </div>
     </>
   )
