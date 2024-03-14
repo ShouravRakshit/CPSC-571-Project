@@ -1,4 +1,4 @@
-from rest_framework.viewsets  import ModelViewSet
+from rest_framework.viewsets import ModelViewSet
 from ..models import Movie
 from .serializers import MovieSerializer
 from rest_framework import viewsets, filters
