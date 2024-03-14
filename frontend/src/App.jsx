@@ -8,44 +8,27 @@ function App() {
   const [moviesData, setMoviesData] = useState([]);
   const endpoint = `${import.meta.env.VITE_API_URL}movies/`;
 
-  const fetchData = async() =>{
-    console.log("fetching...")
-    const response = await axios(endpoint);
-    const {data} = response
-    setMoviesData(data)
-  }
-
   const handleSearch = async (searchQuery) => {
-    const newData = await newMovieData(searchQuery);
-    if (newData) {
-      setMoviesData(prev => [...prev, newData]);
-    } else {
-      alert('Error: Failed to add a new Movie');
+    try {
+      const response = await axios.get(`${endpoint}?search=${searchQuery}`);
+      const { data } = response;
+      setMoviesData(data); 
+    } catch (error) {
+      console.error('Search failed:', error);
+      alert('Error: Failed to search for the movie');
     }
   };
 
-  const newMovieData = async(searchQuery) =>{
-      const movie_title = searchQuery;
-      const genres = searchQuery; 
-      const body = {movie_title, genres};
-      const response = await axios.post(endpoint, body);
-      return response.data;
-  }
-
-  useEffect(()=>{
-    fetchData()
-  }, [])
-
+  
   // items have movie_title and genres as attributes.
   return (
     <>
       <TextFieldForm onSearch={handleSearch}/>
-      <ul>
+      <div>
         {moviesData.map(item =>
-          <li key={item.id}> {item.movie_title}  - {item.genres}</li>)}
-      </ul>
+          <h2 key={item.id}> {item.movie_title}  - {item.genres}</h2>)}
+      </div>
     </>
   )
 }
-
 export default App
