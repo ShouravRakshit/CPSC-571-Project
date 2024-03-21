@@ -20,13 +20,14 @@ To run this project, you will need to add the following environment variables to
 
 Install my-project with npm
 
-```bash```
+```bash
   npm install my-project
   cd my-project
+```
 
-```bash```
+```bash
 Run Locally
 Clone the project
   git clone https://link-to-project
   cd my-project
-
+```
