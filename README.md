@@ -27,7 +27,7 @@ Clone the project
 ```bash
   git clone [https://link-to-project](https://github.com/ShouravRakshit/CPSC-571-Project.git)
 ```
-
+### Backend Setup
 ## Setup the virtual environment
    Unix/MacOS:
 ```bash
@@ -40,7 +40,7 @@ Clone the project
     env\Scripts\activate.bat
 ```
 
-## Go to the project directory
+## Go to the backend folder
 ```bash
     cd backend
 ```
