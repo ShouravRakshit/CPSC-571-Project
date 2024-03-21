@@ -16,18 +16,13 @@ To run this project, you will need to add the following environment variables to
 
 `REACT_APP_API_URL` - The URL of the backend server.
 
-## Installation
-
-Install my-project with npm
-
-
 ## Run Locally
 Clone the project
 
 ```bash
   git clone [https://link-to-project](https://github.com/ShouravRakshit/CPSC-571-Project.git)
 ```
-### Backend Setup
+## Backend Setup
 ## Setup the virtual environment
    Unix/MacOS:
 ```bash
@@ -66,6 +61,23 @@ Clone the project
 # Start the server
 ```bash
     python manage.py runserver
+```
+
+## Client-Side Setup
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine. My Node.js version is v21.2.0 and NPM version is 8.6. (optional) 
+Go to the client directory and follow these instructions
+
+```bash
+   cd frontend
+```
+
+# Install Dependencies
+```bash
+   npm install
+```
+# Run the Development Server
+```bash
+   npm run dev
 ```
 Appendix
 Any additional information goes here
