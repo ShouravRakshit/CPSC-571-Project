@@ -31,3 +31,29 @@ Clone the project
 ```bash
   git clone https://link-to-project
 ```
+## Go to the project directory
+```bash
+    cd my-project
+```
+
+# Install dependencies
+
+```bash
+    npm install
+```
+
+# Start the server
+```bash
+    npm run dev
+```
+Appendix
+Any additional information goes here
+
+Authors
+Shourav Rakshit Ivan, 
+License
+MIT
+
+Feedback
+If you have any feedback, please reach out to us at shouravivan@gmail.com
+
