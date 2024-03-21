@@ -23,33 +23,3 @@ Install my-project with npm
 ```bash
   npm install my-project
   cd my-project
-
-```bash
-   git clone https://link-to-project
-
-```bash
-  cd my-project
-
-```bash
-  npm install
-
-```bash
- npm run dev
-
-Appendix
-Any additional information goes here
-
-Authors
-@yourusername
-License
-MIT
-
-Feedback
-If you have any feedback, please reach out to us at fake@fake.com
-
-
-
-
-
-
-
