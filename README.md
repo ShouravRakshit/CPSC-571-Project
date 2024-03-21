@@ -10,11 +10,6 @@ Our team’s research focus is an improvement on existing implementations of Rec
 **Server:** Django
 **Database:** SQLite
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`REACT_APP_API_URL` - The URL of the backend server.
 
 ## Run Locally
 Clone the project
