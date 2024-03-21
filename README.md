@@ -16,6 +16,54 @@ To run this project, you will need to add the following environment variables to
 
 `REACT_APP_API_URL` - The URL of the backend server.
 
+Run Locally
+Clone the project
+
+bash
+Copy code
+  git clone https://link-to-project
+Go to the project directory
+
+bash
+Copy code
+  cd my-project
+Install dependencies
+
+bash
+Copy code
+  npm install
+Start the server
+
+bash
+Copy code
+  npm run dev
+Running Tests
+To run tests, run the following command
+
+bash
+Copy code
+  npm run test
+Deployment
+To deploy this project run
+
+bash
+Copy code
+  npm run build
+Appendix
+Any additional information goes here
+
+Authors
+@yourusername
+License
+MIT
+
+Feedback
+If you have any feedback, please reach out to us at fake@fake.com
+
+Acknowledgements
+Awesome Readme Templates
+How to write a Good readme
+
 ## Installation
 
 Install my-project with npm
