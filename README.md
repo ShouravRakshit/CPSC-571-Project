@@ -60,7 +60,7 @@ Clone the project
 ```
 
 ## Client-Side Setup
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine. My Node.js version is v21.2.0 and NPM version is 10.5.0. (optional) \n
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine. My Node.js version is v21.2.0 and NPM version is 10.5.0. (optional) 
 Go to the client directory and follow these instructions
 
 ```bash
