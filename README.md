@@ -19,12 +19,12 @@ To run this project, you will need to add the following environment variables to
 Run Locally
 Clone the project
 
-bash
+```bash
 Copy code
   git clone https://link-to-project
 Go to the project directory
 
-bash
+```bash
 Copy code
   cd my-project
 Install dependencies
