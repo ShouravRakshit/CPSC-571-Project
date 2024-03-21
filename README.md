@@ -8,6 +8,7 @@ Our team’s research focus is an improvement on existing implementations of Rec
 **Client:** React, Material-UI, HTML, CSS, Vite
 
 **Server:** Django
+
 **Database:** SQLite
 
 
