@@ -40,10 +40,6 @@ Clone the project
     env\Scripts\activate.bat
 ```
 
-```bash
-    cd backend
-```
-
 ## Go to the project directory
 ```bash
     cd backend
@@ -55,9 +51,21 @@ Clone the project
     pip install -r requirements.txt
 ```
 
+# Database Setup:
+
+```bash
+    python manage.py migrate
+```
+
+# Create a Superuser: If you want to access Django admin
+
+```bash
+    python manage.py createsuperuser
+```
+
 # Start the server
 ```bash
-    npm run dev
+    python manage.py runserver
 ```
 Appendix
 Any additional information goes here
