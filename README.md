@@ -20,26 +20,39 @@ To run this project, you will need to add the following environment variables to
 
 Install my-project with npm
 
-```bash
-  npm install my-project
-  cd my-project
-```
 
 ## Run Locally
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone [https://link-to-project](https://github.com/ShouravRakshit/CPSC-571-Project.git)
 ```
+
+## Setup the virtual environment
+   Unix/MacOS:
+```bash
+    python3 -m env .env
+    source env/Scripts/activate
+```
+ Windows:
+```bash
+    py -m env env
+    env\Scripts\activate.bat
+```
+
+```bash
+    cd backend
+```
+
 ## Go to the project directory
 ```bash
-    cd my-project
+    cd backend
 ```
 
 # Install dependencies
 
 ```bash
-    npm install
+    pip install -r requirements.txt
 ```
 
 # Start the server
