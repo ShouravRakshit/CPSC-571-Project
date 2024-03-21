@@ -25,9 +25,9 @@ Install my-project with npm
   cd my-project
 ```
 
-```bash
-Run Locally
+## Run Locally
 Clone the project
+
+```bash
   git clone https://link-to-project
-  cd my-project
 ```
